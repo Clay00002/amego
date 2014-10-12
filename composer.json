@@ -1,0 +1,36 @@
+{
+    "name": "clay/amego",
+    "description": "php",
+    "authors": [
+        {
+            "name": "Clay Chen",
+            "email": "ntcuadt097119@hotmail.ocm"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "smarty/smarty",
+                "version": "3.1.20",
+                "dist": {
+                    "url": "http://www.smarty.net/files/Smarty-3.1.20.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://smarty-php.googlecode.com/svn/",
+                    "type": "svn",
+                    "reference": "tags/Smarty_3_1_20/distribution/"
+                },
+                "autoload": {
+                    "classmap": ["libs/"]
+                }
+            }
+        }
+    ],
+    "require": {
+        "smarty/smarty": "3.1.*"
+    }
+    
+    
+}
